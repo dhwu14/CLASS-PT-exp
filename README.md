@@ -1,8 +1,8 @@
 # CLASS-PT-exp: Exact-time fading dark sector extension of CLASS-PT
 
-**CLASS-PT-exp** is a modified version of [CLASS-PT](https://github.com/Michalychforever/CLASS-PT), built on the [CLASS](https://github.com/lesgourg/class_public) Boltzmann solver, for computing large-scale-structure observables in [the fading dark sector model (FDS)](https://arxiv.org/abs/1906.08261) which has been recently also analyzed in [arXiv:2507.03090](https://arxiv.org/abs/2507.03090).
+**CLASS-PT-exp** is a modified version of [CLASS-PT](https://github.com/Michalychforever/CLASS-PT), built on the [CLASS](https://github.com/lesgourg/class_public) Boltzmann solver, for computing large-scale-structure observables in [the fading dark sector model (FDS)](https://arxiv.org/abs/1906.08261) which has been analyzed in [arXiv:2507.03090](https://arxiv.org/abs/2507.03090) using recent cosmological data.
 
-The extension evolves baryon and coupled-dark-matter perturbations separately, using time-dependent perturbation-theory kernels instead of the usual Einstein–de Sitter (EdS) time-factorization approximation. It computes one-loop matter and biased-tracer power spectra, including redshift-space multipoles, and supports two-fluid bias operators, EFT counterterms and stochastic contributions. The implementation also includes redshift-space distortions (RSD), Alcock–Paczynski (AP) mapping and infrared (IR) resummation. Optional primordial non-Gaussianity templates are available, subject to the model and IR-resummation settings.
+The extension evolves baryon and fading dark matter perturbations separately, using time-dependent perturbations kernels instead of the usual Einstein–de Sitter (EdS) time-factorization approximation. It computes one-loop matter and biased-tracer power spectra, including redshift-space multipoles, and supports two-fluid bias operators, EFT counterterms and stochastic contributions. The implementation also includes redshift-space distortions (RSD), Alcock–Paczynski (AP) mapping and infrared (IR) resummation. Optional primordial non-Gaussianity templates are available, subject to the model and IR-resummation settings.
 
 ## Getting started
 
@@ -43,9 +43,15 @@ Keep the remaining background and numerical settings matched to the reference ca
 
 ## Acknowledgments
 
-This project is derived from CLASS-PT; it is not an independent implementation of the underlying CLASS/CLASS-PT solver. Please acknowledge the original CLASS and CLASS-PT authors and cite the original CLASS-PT code paper, [arXiv:2004.10607](https://arxiv.org/abs/2004.10607), when using this software. The upstream CLASS-PT authors include Mikhail Ivanov, Anton Chudaykin, Marko Simonović, Oliver Philcox and Giovanni Cabass.
+This project is derived from CLASS-PT; it is not an independent implementation of the underlying CLASS/CLASS-PT solver. Please acknowledge the original CLASS and CLASS-PT authors and cite the original CLASS-PT code paper, [arXiv:2004.10607](https://arxiv.org/abs/2004.10607), when using this software. The CLASS-PT authors include Mikhail Ivanov, Anton Chudaykin, Marko Simonović, Oliver Philcox and Giovanni Cabass.
 
-Please also consult the upstream repositories for applicable licensing and attribution requirements.
+Please also consult the [CLASS-PT](https://github.com/Michalychforever/CLASS-PT) repositories for applicable licensing and attribution requirements.
+
+## Citation
+
+If you use this code or its results in your research, please cite our paper:
+- **Alek Bedroya, Georges Obied, Cumrun Vafa, and David Wu**, *Evolving Dark Sector and the Dark Dimension Scenario*, [arXiv:2507.03090](https://arxiv.org/abs/2507.03090)
+- **Georges Obied, Cumrun Vafa, and David Wu**, *The Full-Shape Analysis of the Fading Dark Sector*, [arXiv:2611.XXXXX](https://arxiv.org/abs/2507.03090)
 
 ### Authors
 
