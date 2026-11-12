@@ -1,0 +1,21 @@
+# Compiled CLASS files
+/class
+*.o
+*.a
+*.so
+*.d
+
+# Python build artifacts
+/build/
+/dist/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Generated outputs
+/output/
+/results/
+*.log
+
+# macOS
+.DS_Store
