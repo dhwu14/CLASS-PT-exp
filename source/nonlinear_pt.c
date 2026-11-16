@@ -24,7 +24,7 @@
  * 
  * Primarily used for the FDS model (arXiv:2507.03090); benchmarked with LCDM (c,c'->0)
  * Additions can be found from comments starting with DW
- * Reference:	Obied, Vafa, Wu (arXiv:2611.XXXXX "The Full-Shape Analysis of the Fading Dark Sector")
+ * Reference:	Obied, Vafa, Wu (arXiv:2611.17422 "The Full-Shape Analysis of the Fading Dark Sector")
  */
 
 #define _GNU_SOURCE

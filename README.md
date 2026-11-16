@@ -51,7 +51,7 @@ Please also consult the [CLASS-PT](https://github.com/Michalychforever/CLASS-PT)
 
 If you use this code or its results in your research, please cite our paper:
 - **Alek Bedroya, Georges Obied, Cumrun Vafa, and David Wu**, *Evolving Dark Sector and the Dark Dimension Scenario*, [arXiv:2507.03090](https://arxiv.org/abs/2507.03090)
-- **Georges Obied, Cumrun Vafa, and David Wu**, *The Full-Shape Analysis of the Fading Dark Sector*, [arXiv:2611.XXXXX](https://arxiv.org/abs/2507.03090)
+- **Georges Obied, Cumrun Vafa, and David Wu**, *The Full-Shape Analysis of the Fading Dark Sector*, [arXiv:2611.17422](https://arxiv.org/abs/2611.17422)
 
 ### Authors
 
